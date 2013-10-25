@@ -880,10 +880,10 @@
     <!-- In message list items, this string builds the timestamp line when the message is in a group [CHAR LIMIT=NONE] -->
     <string name="message_timestamp_format"><xliff:g id="string" example="Fred Flinstone">%1$s</xliff:g>\u0020-\u0020<xliff:g id="string" example="9:39AM">%2$s</xliff:g></string>
 
-   <!-- Settings item for boolean option for SMS Split Counter -->
-   <string name="pref_title_sms_split_counter">Split counter</string>
-   <!-- Settings item description for boolean SMS Split 160 characters setting -->
-   <string name="pref_summary_sms_split_counter">Adds counter to message ex. (1/2)</string>
+    <!-- Settings item for boolean option for SMS Split Counter -->
+    <string name="pref_title_sms_split_counter">Split counter</string>
+    <!-- Settings item description for boolean SMS Split 160 characters setting -->
+    <string name="pref_summary_sms_split_counter">Adds counter to message ex. (1/2)</string>
 
     <!-- Extra Settings: -->
     <string name="pref_extra_settings">Extra settings</string>
@@ -929,17 +929,17 @@
     <string name="pref_title_quick_reply">Quick Reply Buttons</string>
     <string name="pref_category_quick_reply_extra">Quick Reply Extras</string>
 
-   <!-- Breathing Notifications -->
-   <string name="sms_breath">Breathing SMS</string>
-   <string name="sms_breath_summary">Will give your sms notifications a breathing effect in the statusbar.</string>
+    <!-- Breathing Notifications -->
+    <string name="sms_breath">Breathing SMS</string>
+    <string name="sms_breath_summary">Will give your sms notifications a breathing effect in the statusbar.</string>
 
-   <!-- Soft Keyboard Type -->
-   <string name="pref_soft_keyboard_title">Keyboard</string>
-   <string name="pref_title_input_type">Soft keyboard type</string>
-   <string name="pref_summary_input_type">Select the soft keyboard to use when composing messages</string>
-   <string name="pref_keyboard_emoji">Emoji</string>
-   <string name="pref_keyboard_send">Enter to Send</string>
-   <string name="pref_keyboard_new_line">Enter for a new line</string>
+    <!-- Soft Keyboard Type -->
+    <string name="pref_soft_keyboard_title">Keyboard</string>
+    <string name="pref_title_input_type">Soft keyboard type</string>
+    <string name="pref_summary_input_type">Select the soft keyboard to use when composing messages</string>
+    <string name="pref_keyboard_emoji">Emoji</string>
+    <string name="pref_keyboard_send">Enter to Send</string>
+    <string name="pref_keyboard_new_line">Enter for a new line</string>
 
     <!-- Custom user-agent -->
     <string name="pref_mms_ua_default_android">Default Android</string>
@@ -953,8 +953,17 @@
     <string name="pref_title_mms_user_agent">Custom User-Agent</string>
     <string name="pref_summary_mms_user_agent">Spoof phone as a different model for MMS</string>
     <string name="pref_mms_user_agent_custom_set">Custom User Agent set to:\n</string>
-
     <string name="storage_warning_title">Your phone\'s storage is full</string>
     <string name="storage_warning_content">You won\'t receive new SMS/MMS messages</string>
+
+    <!-- Delay delivery -->
+    <string name="pref_title_send_delay">Delivery delay</string>
+    <string name="send_delay_immediate">Send immediately</string>
+    <string name="send_delay_3seconds">3 seconds</string>
+    <string name="send_delay_5seconds">5 seconds</string>
+    <string name="send_delay_10seconds">10 seconds</string>
+    <string name="send_delay_20seconds">20 seconds</string>
+    <string name="send_delay_30seconds">30 seconds</string>
+    <string name="sent_countdown">Message delivery countdown</string>
 
 </resources>

@@ -18,3 +18,4 @@
         <item quantity="one">Sending in 1 second, touch to cancel.</item>
         <item quantity="other">Sending in %1$d seconds, touch to cancel.</item>
     </plurals>
+</resources>
